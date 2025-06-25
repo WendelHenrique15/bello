@@ -54,6 +54,10 @@ hr{
   text-align: center;
 }
 
+#resAtuEnt{
+  text-align: center;
+}
+
 button{
   height: 30px;
   width: 130px;
@@ -70,3 +74,4 @@ input{
   border-color: black;
   border-radius: 15px;
 }
+
