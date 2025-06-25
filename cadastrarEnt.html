@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="progCadEnt.js"defer></script>
+    <title>Cadastro Entrega</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="cadastrarEnt.html">Cadastar entrega</a>
+            <a href="listarEnt.html">Listar entrega</a>
+            <a href="atualizarEnt.html">Atualizar entrega</a>
+            <a href="consultarEnt.html">Consultar entrega</a>
+            <a href="deletarEnt.html">Deletar entrega</a>
+            <a href="cadastrarPro.html">Cadastrar produto</a>
+            <a href="listarPro.html">Listar produto</a> 
+            <a href="atualizarPro.html">Atualizar produto</a> 
+            <a href="consultarPro.html">Consultar produto</a> 
+            <a href="deletarPro.html">Deletar produto</a> 
+        </nav>
+    </header>
+    <main>
+        <br><br>
+        <h1>
+            Cadastrar Entrega
+        </h1>
+        <br><br>
+        <form>
+            <label for="cep">Digite seu CEP: </label><br>
+            <input type="text" id="cep" placeholder="Digite seu CEP">
+            <br><br>
+            <button id="puxarCep">Puxar CEP</button>
+            <br><br>
+            <label for="logradouro">Digite o logradouro:</label><br>
+            <input type="text" id="logradouro">
+            <br><br>
+
+            <label for="complemento">Digite um Complemento:</label><br>
+            <input type="text" id="complemento">
+            <br><br>
+
+            <label for="bairro">Digite o Nome do Bairro:</label><br>
+            <input type="text" id="bairro">
+            <br><br>
+
+            <label for="localidade">Digite a Localidade</label><br>
+            <input type="text" id="localidade">
+            <br><br>
+
+            <label for="uf">Digite o Estado:</label><br>
+            <input type="text" id="uf">
+            <br><br>
+
+            <label for="nomeResponsavel">Digite o Nome do Responsavel:</label><br>
+            <input type="text" id="nomeResponsavel">
+            <br><br>
+
+            <label for="data">Selecione a data:</label><br>
+            <input type="date" id="data">
+            <br><br>
+            <br>
+            <button id="cadEnt">Cadastrar</button>
+        </form>
+        <br>
+        <div id="resCadEnt"></div>
+    </main>
+</body>
+</html>

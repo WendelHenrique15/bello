@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="progAtuEnt.js"defer></script>
+    <title>Atualizar entrega</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="cadastrarEnt.html">Cadastar entrega</a>
+            <a href="listarEnt.html">Listar entrega</a>
+            <a href="atualizarEnt.html">Atualizar entrega</a>
+            <a href="consultarEnt.html">Consultar entrega</a>
+            <a href="deletarEnt.html">Deletar entrega</a>
+            <a href="cadastrarPro.html">Cadastrar produto</a>
+            <a href="listarPro.html">Listar produto</a> 
+            <a href="atualizarPro.html">Atualizar produto</a> 
+            <a href="consultarPro.html">Consultar produto</a> 
+            <a href="deletarPro.html">Deletar produto</a> 
+        </nav>
+    </header>
+    <main>
+        <br><br>
+        <h1>
+            Atualizar entrega
+        </h1>
+        <br><br>
+        <form>
+            <label for="codEntrega">Digite o código de identificação:</label><br>
+            <input type="text" id="codEntrega">
+            <br><br>
+            <button id="puxarEnt">Puxar dados</button>
+            <br><br>
+
+            <label for="atuLogr">Digite o logradouro:</label><br>
+            <input type="text" id="atuLogr">
+            <br><br>
+
+            <label for="atuComp">Digite um Complemento:</label><br>
+            <input type="text" id="atuComp">
+            <br><br>
+
+            <label for="atuBairro">Digite o Nome do Bairro:</label><br>
+            <input type="text" id="atuBairro">
+            <br><br>
+
+            <label for="atuLoc">Digite a localidade</label><br>
+            <input type="text" id="atuLoc">
+            <br><br>
+
+            <label for="atuUf">Digite o Estado:</label><br>
+            <input type="text" id="atuUf">
+            <br><br>
+
+            <label for="atuNomeResp">Digite o Nome do Responsavel:</label><br>
+            <input type="text" id="atuNomeResp">
+            <br><br>
+
+            <label for="atuData">Selecione a data:</label><br>
+            <input type="date" id="atuData">
+            <br><br>
+            <br>
+            <button id="atualizarent">Atualizar</button>
+            <br><br>
+        </form>
+    </main>
+    <div id="resAtuEnt"></div>
+    
+</body>
+</html>
